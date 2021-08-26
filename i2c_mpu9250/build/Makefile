@@ -88,8 +88,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -1238,32 +1238,59 @@ home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-i2c_mpu9250.obj: i2c_mpu9250.c.obj
+main.obj: main.cpp.obj
 
-.PHONY : i2c_mpu9250.obj
+.PHONY : main.obj
 
 # target to build an object file
-i2c_mpu9250.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/i2c_mpu9250.c.obj
-.PHONY : i2c_mpu9250.c.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-i2c_mpu9250.i: i2c_mpu9250.c.i
+main.i: main.cpp.i
 
-.PHONY : i2c_mpu9250.i
+.PHONY : main.i
 
 # target to preprocess a source file
-i2c_mpu9250.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/i2c_mpu9250.c.i
-.PHONY : i2c_mpu9250.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-i2c_mpu9250.s: i2c_mpu9250.c.s
+main.s: main.cpp.s
 
-.PHONY : i2c_mpu9250.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-i2c_mpu9250.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/i2c_mpu9250.c.s
-.PHONY : i2c_mpu9250.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+src/i2c_mpu9250.obj: src/i2c_mpu9250.cpp.obj
+
+.PHONY : src/i2c_mpu9250.obj
+
+# target to build an object file
+src/i2c_mpu9250.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj
+.PHONY : src/i2c_mpu9250.cpp.obj
+
+src/i2c_mpu9250.i: src/i2c_mpu9250.cpp.i
+
+.PHONY : src/i2c_mpu9250.i
+
+# target to preprocess a source file
+src/i2c_mpu9250.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.i
+.PHONY : src/i2c_mpu9250.cpp.i
+
+src/i2c_mpu9250.s: src/i2c_mpu9250.cpp.s
+
+.PHONY : src/i2c_mpu9250.s
+
+# target to generate assembly for a file
+src/i2c_mpu9250.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.s
+.PHONY : src/i2c_mpu9250.cpp.s
 
 # Help Target
 help:
@@ -1394,9 +1421,12 @@ help:
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... i2c_mpu9250.obj"
-	@echo "... i2c_mpu9250.i"
-	@echo "... i2c_mpu9250.s"
+	@echo "... main.obj"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... src/i2c_mpu9250.obj"
+	@echo "... src/i2c_mpu9250.i"
+	@echo "... src/i2c_mpu9250.s"
 .PHONY : help
 
 

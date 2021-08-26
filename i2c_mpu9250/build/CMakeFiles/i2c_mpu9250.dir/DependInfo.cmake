@@ -52,9 +52,9 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
-  "PICO_CXX_ENABLE_EXCEPTIONS=0"
+  "PICO_CXX_ENABLE_EXCEPTIONS=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -66,6 +66,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../inc"
+  "../src"
   "/home/aniket/pico/pico-sdk/src/common/pico_stdlib/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/aniket/pico/pico-sdk/src/common/pico_base/include"
@@ -140,7 +142,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-  "/home/aniket/pico/my_pico_projects/i2c_mpu9250/i2c_mpu9250.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/i2c_mpu9250.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -176,9 +177,9 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
-  "PICO_CXX_ENABLE_EXCEPTIONS=0"
+  "PICO_CXX_ENABLE_EXCEPTIONS=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -190,6 +191,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../inc"
+  "../src"
   "/home/aniket/pico/pico-sdk/src/common/pico_stdlib/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/aniket/pico/pico-sdk/src/common/pico_base/include"
@@ -231,6 +234,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+  "/home/aniket/pico/my_pico_projects/i2c_mpu9250/main.cpp" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/main.cpp.obj"
+  "/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/i2c_mpu9250.cpp" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -266,9 +271,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
-  "PICO_CXX_ENABLE_EXCEPTIONS=0"
+  "PICO_CXX_ENABLE_EXCEPTIONS=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -280,6 +285,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../inc"
+  "../src"
   "/home/aniket/pico/pico-sdk/src/common/pico_stdlib/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/aniket/pico/pico-sdk/src/common/pico_base/include"
