@@ -45,7 +45,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
   "CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
   "CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-  "CMakeFiles/i2c_mpu9250.dir/i2c_mpu9250.c.obj"
+  "CMakeFiles/i2c_mpu9250.dir/main.cpp.obj"
+  "CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj"
   "i2c_mpu9250.elf"
   "i2c_mpu9250.pdb"
 )

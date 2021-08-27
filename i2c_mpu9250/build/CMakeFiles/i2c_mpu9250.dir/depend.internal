@@ -868,9 +868,11 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
-CMakeFiles/i2c_mpu9250.dir/i2c_mpu9250.c.obj
- /home/aniket/pico/my_pico_projects/i2c_mpu9250/i2c_mpu9250.c
- /home/aniket/pico/my_pico_projects/i2c_mpu9250/mpu9250.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+CMakeFiles/i2c_mpu9250.dir/main.cpp.obj
+ ../inc/MPU9250_RegisterMap.h
+ /home/aniket/pico/my_pico_projects/i2c_mpu9250/main.cpp
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -900,8 +902,43 @@ CMakeFiles/i2c_mpu9250.dir/i2c_mpu9250.c.obj
  /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
-CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
- /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj
+ ../inc/MPU9250_RegisterMap.h
+ /home/aniket/pico/my_pico_projects/i2c_mpu9250/src/i2c_mpu9250.cpp
+ /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
+ /home/aniket/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
+ /home/aniket/pico/pico-sdk/src/common/pico_time/include/pico/time.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
