@@ -39,19 +39,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 38,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 45,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
@@ -94,7 +94,7 @@
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 31,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -106,7 +106,7 @@
 			{
 				"command" : 9,
 				"file" : 0,
-				"line" : 32,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -124,13 +124,13 @@
 			{
 				"command" : 10,
 				"file" : 0,
-				"line" : 27,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 41,
+				"line" : 47,
 				"parent" : 0
 			}
 		]
@@ -141,7 +141,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
 				},
 				{
 					"backtrace" : 2,
@@ -287,7 +287,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
 				},
 				{
 					"backtrace" : 2,
@@ -487,6 +487,10 @@
 				{
 					"backtrace" : 17,
 					"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include"
 				}
 			],
 			"language" : "CXX",
@@ -501,7 +505,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
 				},
 				{
 					"backtrace" : 2,
@@ -639,7 +643,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
 				},
 				{
 					"backtrace" : 2,
@@ -839,6 +843,10 @@
 				{
 					"backtrace" : 17,
 					"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include"
 				}
 			],
 			"language" : "C",
@@ -877,14 +885,15 @@
 				44,
 				45,
 				46,
-				47
+				47,
+				48
 			]
 		},
 		{
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
 				},
 				{
 					"backtrace" : 2,
@@ -1019,7 +1028,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
 				},
 				{
 					"backtrace" : 2,
@@ -1219,6 +1228,10 @@
 				{
 					"backtrace" : 17,
 					"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include"
 				}
 			],
 			"language" : "ASM",
@@ -1255,7 +1268,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG",
+				"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g",
 				"role" : "flags"
 			},
 			{
@@ -2123,7 +2136,8 @@
 				44,
 				45,
 				46,
-				47
+				47,
+				48
 			]
 		},
 		{
@@ -2432,6 +2446,12 @@
 			"backtrace" : 17,
 			"compileGroupIndex" : 1,
 			"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 1,
+			"path" : "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c",
 			"sourceGroupIndex" : 0
 		}
 	],

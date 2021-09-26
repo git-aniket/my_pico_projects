@@ -52,7 +52,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Release\""
+  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=1"
   "PICO_NO_FLASH=0"
@@ -106,6 +106,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
@@ -123,6 +124,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+  "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
@@ -177,7 +179,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Release\""
+  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=1"
   "PICO_NO_FLASH=0"
@@ -231,6 +233,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
@@ -271,7 +274,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Release\""
+  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=1"
   "PICO_NO_FLASH=0"
@@ -325,6 +328,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include"
   )
 
 # Targets to which this target links.

@@ -166,34 +166,34 @@ typedef struct {
 class BMP280
 {
     public:
-        //functions
-        BMP280(i2c_inst* port, uint baud_rate, uint sda, uint scl);
-        ~BMP280(){
-            i2c_deinit(this->PORT);
-        }
+    //functions
+    BMP280(i2c_inst* port, uint baud_rate, uint sda, uint scl);
+    ~BMP280(){
+          i2c_deinit(this->PORT);
+    }
 
-	bool read_raw_sensor_data();
-	float read_temperature();
-	float read_pressure();
-	uint8_t raw_data_buffer[6];
+	  bool read_raw_sensor_data();
+	  float read_temperature();
+	  float read_pressure();
+	  uint8_t raw_data_buffer[6];
 	
-        //variables
-	bmp280_calib_data calib_data;//stores the calibration data values
+    //variables
+	  bmp280_calib_data calib_data;//stores the calibration data values
 
     private:
 	
-        //functions
-	bool config_sensor();
-	bool read_calibration_data();
-	bool sensor_busy();
-	bool read_register(uint8_t reg,uint8_t* dest);
+    //functions
+	  bool config_sensor();
+	  bool read_calibration_data();
+	  bool sensor_busy();
+	  bool read_register(uint8_t reg,uint8_t* dest);
 
-        //variables
-        i2c_inst* PORT;
-        uint BAUD_RATE;
-        uint SDA;
-        uint SCL;
-	int32_t t_fine;
+    //variables
+    i2c_inst* PORT;
+    uint BAUD_RATE;
+    uint SDA;
+    uint SCL;
+	  int32_t t_fine;
 
 };
 

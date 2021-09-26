@@ -617,6 +617,33 @@ home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
+home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+
+.PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+
+# target to build an object file
+home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+
+home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+.PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i
+
+# target to preprocess a source file
+home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
+.PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s
+
+# target to generate assembly for a file
+home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2c_mpu9250.dir/build.make CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
 home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 .PHONY : home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
@@ -1352,6 +1379,9 @@ help:
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj"
+	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
+	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"

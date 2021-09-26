@@ -805,7 +805,7 @@
 					"source" : "/home/aniket/pico/pico-sdk/docs"
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -912,35 +912,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Release-5a6fd9ef9b65609fd810.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-b8ea345eb4f623ec5177.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 42,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Release-f7911a8a183487a78234.json",
+					"jsonFile" : "target-bs2_default-Debug-1e980df4b9e804497150.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 42,
 					"id" : "bs2_default_bin::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default_bin-Release-436dc6cfaa55a726090b.json",
+					"jsonFile" : "target-bs2_default_bin-Debug-436dc6cfaa55a726090b.json",
 					"name" : "bs2_default_bin",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 42,
 					"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Release-64abddb2bed339e6957b.json",
+					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Debug-64abddb2bed339e6957b.json",
 					"name" : "bs2_default_padded_checksummed_asm",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "i2c_mpu9250::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-i2c_mpu9250-Release-d1878f5ab9146677a552.json",
+					"jsonFile" : "target-i2c_mpu9250-Debug-5683844cafb0d3d1a2d0.json",
 					"name" : "i2c_mpu9250",
 					"projectIndex" : 0
 				}

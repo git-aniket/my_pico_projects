@@ -1,3 +1,22 @@
+/**
+ * @file MPU9250_RegisterMap.h
+ * @author Aniket Mazumder (mazumder_aniket@hotmail.com)
+ * @brief Header file for the MPU9250 class.
+ * @version 0.1
+ * @date 2021-08-29
+ * @copyright Copyright (c) 2021 Aniket Mazumder
+ * 
+ */
+
+
+/**
+* The MIT License (MIT)
+* Copyright (c) 2016 SparkFun Electronics, Inc.
+* Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
 /*
  * https://raw.githubusercontent.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library/master/src/MPU9250_RegisterMap.h
  * This file was copied from the above link
@@ -8,6 +27,8 @@
 
 #define MPU9250_ADDRESS_AD0_HIGH 0x68
 #define MPU9250_ADDRESS_AD0_LOW 0x69
+
+#define  MPU_RAW_REG_COUNT 14
 
 enum mpu9250_register {
 	MPU9250_SELF_TEST_X_GYRO =  0x00,
@@ -136,6 +157,43 @@ enum accel_config_bit {
 	ACCEL_CONFIG_AX_ST_EN = 7,
 };
 #define MPU9250_ACCEL_FS_SEL_MASK 0x3
+
+enum DLP_CFG_GYRO{
+    GYRO_DLP_CFG_250_8=0,
+    GYRO_DLP_CFG_184_1=1,
+    GYRO_DLP_CFG_92_1=2,
+    GYRO_DLP_CFG_41_1=3,
+    GYRO_DLP_CFG_20_1=4,
+    GYRO_DLP_CFG_10_1=5,
+    GYRO_DLP_CFG_5_1=6,
+    GYRO_DLP_CFG_3600_8=7,
+};
+
+
+enum DLP_CFG_ACC{
+    ACC_DLP_CONFIG_460=0,
+    ACC_DLP_CONFIG_184=1,
+    ACC_DLP_CONFIG_92=2,
+    ACC_DLP_CONFIG_41=3,
+    ACC_DLP_CONFIG_20=4,
+    ACC_DLP_CONFIG_10=5,
+    ACC_DLP_CONFIG_5=6,
+};
+
+typedef enum{
+    GYRO_FS_TWO_FIFTY_DPS=0,
+    GYRO_FS_FIVE_HUNDRED_DPS=1,
+    GYRO_FS_ONE_THOUSAND_DPS_1000=2,
+    GYRO_FS_TWO_THOUSAND_DPS=3,
+} MPU9250_GYRO_FULL_SCALE;
+
+typedef enum{
+    ACC_FS_TWO_G=0,
+    ACC_FS_FOUR_G=1,
+    ACC_FS_EIGHT_G=2,
+    ACC_FS_SIXTEEN_G=3,
+} MPU9250_ACCEL_FULL_SCALE;
+
 
 enum accel_config_2_bits {
 	ACCEL_CONFIG_2_A_DLPFCFG = 0,

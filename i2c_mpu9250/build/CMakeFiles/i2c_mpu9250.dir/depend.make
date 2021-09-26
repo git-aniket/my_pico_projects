@@ -467,6 +467,34 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: generated/pico_base/pico/version.h
 
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_time/include/pico/time.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: generated/pico_base/pico/config_autogen.h
+CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: generated/pico_base/pico/version.h
+
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -871,6 +899,7 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/i2c_mpu9250.dir/main.cpp.obj: ../inc/MPU9250_RegisterMap.h
+CMakeFiles/i2c_mpu9250.dir/main.cpp.obj: ../inc/i2c_mpu9250.h
 CMakeFiles/i2c_mpu9250.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/i2c_mpu9250.dir/main.cpp.obj: /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/i2c_mpu9250.dir/main.cpp.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -907,6 +936,7 @@ CMakeFiles/i2c_mpu9250.dir/main.cpp.obj: generated/pico_base/pico/config_autogen
 CMakeFiles/i2c_mpu9250.dir/main.cpp.obj: generated/pico_base/pico/version.h
 
 CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj: ../inc/MPU9250_RegisterMap.h
+CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj: ../inc/i2c_mpu9250.h
 CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj: ../src/i2c_mpu9250.cpp
 CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj: /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj: /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
