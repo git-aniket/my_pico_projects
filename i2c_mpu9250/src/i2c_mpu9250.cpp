@@ -28,8 +28,8 @@ MPU9250::MPU9250(i2c_inst_t* port, uint sda, uint scl,MPU9250_ACCEL_FULL_SCALE a
     this->PORT=port;
     this->SDA=sda;
     this->SCL=scl;
-    this->acc_full_scale=acc_scale;
-    this->gyro_full_scale=gyro_scale;
+    this->current_acc_scale=acc_scale;
+    this->current_gyro_scale=gyro_scale;
 
     /* I2C Initialisation. Using it at 400Khz.*/
     i2c_init(this->PORT, 400*1000);
@@ -37,22 +37,14 @@ MPU9250::MPU9250(i2c_inst_t* port, uint sda, uint scl,MPU9250_ACCEL_FULL_SCALE a
     gpio_set_function(this->SDA, GPIO_FUNC_I2C);
     gpio_set_function(this->SCL, GPIO_FUNC_I2C);
 
-    /*Setup pull-up registers for the pins*/
+    /*Setup pull-up registers for the i2c pins*/
     gpio_pull_up(this->SDA);
     gpio_pull_up(this->SCL);
 
-    if(MPU_config(this->acc_full_scale, this->gyro_full_scale)==true)
+    if(MPU_config(this->current_acc_scale, this->current_gyro_scale)==true)
 	    printf("Device Configured.\n");
     else
 	    printf("Config failure.\n");
-
-    uint8_t src=MPU9250_GYRO_CONFIG;
-    uint8_t dst;
-    if(read_register(src, &dst)==1)
-	    printf("value =%d\n",dst);
-    else
-	printf("read failure\n");
-
 
 }
 
@@ -72,8 +64,8 @@ bool MPU9250::MPU_config(MPU9250_ACCEL_FULL_SCALE acc_scale, MPU9250_GYRO_FULL_S
     uint8_t config_register_write[5]={
 	            MPU9250_CONFIG,//beginning of register sequence to write to
 	            (GYRO_DLP_CFG_5_1),//write to register 26 MPU9250_CONFIG
-	            (this->gyro_full_scale<3)|(11),//write to register 27 MPU9250_GYRO_CONFIG
-	            (this->acc_full_scale<<3)|(1),//write to register 28 MPU9250_ACCEL_CONFIG
+	            (this->current_gyro_scale<<3)|(1),//write to register 27 MPU9250_GYRO_CONFIG
+	            (this->current_acc_scale<<3)|(1),//write to register 28 MPU9250_ACCEL_CONFIG
 	            (0)|(ACC_DLP_CONFIG_5)//write to register 29 MPU9250_ACCEL_CONFIG2
             };
     

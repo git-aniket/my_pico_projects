@@ -28,8 +28,8 @@ class MPU9250
     float temp;
 
 
-    MPU9250_GYRO_FULL_SCALE gyro_full_scale;
-    MPU9250_ACCEL_FULL_SCALE acc_full_scale;
+    MPU9250_GYRO_FULL_SCALE current_gyro_scale;
+    MPU9250_ACCEL_FULL_SCALE current_acc_scale;
     
     //functions
     MPU9250(i2c_inst_t* port, uint sda, uint scl,MPU9250_ACCEL_FULL_SCALE, MPU9250_GYRO_FULL_SCALE  );

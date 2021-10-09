@@ -20,13 +20,16 @@ int main()
     sleep_ms(100);
 
     //initilize sensor
-    MPU9250 MPU(i2c0, I2C_SDA, I2C_SCL,ACC_FS_SIXTEEN_G,GYRO_FS_TWO_THOUSAND_DPS);
+    MPU9250 MPU(i2c0, 
+	    I2C_SDA, I2C_SCL,
+	    ACC_FS_TWO_G,
+	    GYRO_FS_FIVE_HUNDRED_DPS);
 
     while(1)
     {
 	    //MPU.get_all_readings();
-	    //printf("Accel: %f\n",MPU.get_acceleration(ACCEL_Z));
-	    printf("Gyro: %f\n",MPU.get_gyro(GYRO_Y));
+	    printf("Accel: %f\n",MPU.get_acceleration(ACCEL_X));
+	    printf("Gyro: %f\n",MPU.get_gyro(GYRO_X));
 	    sleep_ms(2000);
     }
 
