@@ -16,6 +16,8 @@
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/boot_uf2/CMakeFiles/edit_cache.dir
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/pico_base/CMakeFiles/rebuild_cache.dir
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/pico_base/CMakeFiles/edit_cache.dir
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/pico_usb_reset_interface/CMakeFiles/rebuild_cache.dir
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/pico_usb_reset_interface/CMakeFiles/edit_cache.dir
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/pico_bit_ops/CMakeFiles/rebuild_cache.dir
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/pico_bit_ops/CMakeFiles/edit_cache.dir
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/pico-sdk/src/common/pico_binary_info/CMakeFiles/rebuild_cache.dir

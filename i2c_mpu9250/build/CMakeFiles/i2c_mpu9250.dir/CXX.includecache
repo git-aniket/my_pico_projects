@@ -18,19 +18,21 @@ stdbool.h
 hardware/i2c.h
 ../inc/hardware/i2c.h
 
-/home/aniket/pico/my_pico_projects/i2c_mpu9250/main.cpp
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/i2c_mpu9250.cpp
+pico/stdlib.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/pico/stdlib.h
+pico/stdio/driver.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/pico/stdio/driver.h
+hardware/i2c.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/hardware/i2c.h
+MPU9250_RegisterMap.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/MPU9250_RegisterMap.h
+stdint.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/stdint.h
+i2c_mpu9250.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/src/i2c_mpu9250.h
 stdio.h
 -
-pico/stdio/driver.h
-/home/aniket/pico/my_pico_projects/i2c_mpu9250/pico/stdio/driver.h
-pico/stdlib.h
-/home/aniket/pico/my_pico_projects/i2c_mpu9250/pico/stdlib.h
-hardware/i2c.h
-/home/aniket/pico/my_pico_projects/i2c_mpu9250/hardware/i2c.h
-MPU9250_RegisterMap.h
-/home/aniket/pico/my_pico_projects/i2c_mpu9250/MPU9250_RegisterMap.h
-i2c_mpu9250.h
-/home/aniket/pico/my_pico_projects/i2c_mpu9250/i2c_mpu9250.h
 
 /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
 
@@ -100,6 +102,8 @@ hardware/timer.h
 hardware/platform_defs.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
 
+/home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
 
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
@@ -119,16 +123,12 @@ hardware/regs/i2c.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
 hardware/address_mapped.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
-hardware/platform_defs.h
-/home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/platform_defs.h
 hardware/regs/sio.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/sio.h
 
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
 hardware/address_mapped.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
-hardware/platform_defs.h
-/home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/platform_defs.h
 hardware/regs/pads_bank0.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/pads_bank0.h
 
@@ -143,8 +143,6 @@ hardware/structs/interp.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 hardware/address_mapped.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
-hardware/platform_defs.h
-/home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/platform_defs.h
 hardware/regs/timer.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/timer.h
 
@@ -177,6 +175,8 @@ pico/time.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/pico/time.h
 hardware/structs/i2c.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/hardware/structs/i2c.h
+hardware/regs/dreq.h
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/hardware/regs/dreq.h
 
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 pico.h
@@ -189,14 +189,16 @@ pico.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/pico.h
 hardware/structs/uart.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/hardware/structs/uart.h
+hardware/regs/dreq.h
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/hardware/regs/dreq.h
 
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+hardware/platform_defs.h
+/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/platform_defs.h
 sys/cdefs.h
 -
 pico/types.h
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/pico/types.h
-hardware/platform_defs.h
-/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/platform_defs.h
 
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 pico.h

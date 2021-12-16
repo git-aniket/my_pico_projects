@@ -3,14 +3,20 @@
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -31,15 +37,26 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq
  generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -47,10 +64,16 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_divider
  /home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider_helper.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -59,18 +82,30 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -79,42 +114,69 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/f
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/aniket/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
  generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  /home/aniket/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/aniket/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -337,12 +399,14 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clo
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
  /home/aniket/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/aniket/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
@@ -399,6 +463,7 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
@@ -478,6 +543,7 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
@@ -547,6 +613,7 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uar
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -806,6 +873,7 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/s
  /home/aniket/pico/pico-sdk/src/common/pico_time/include/pico/time.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -837,6 +905,7 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_u
  /home/aniket/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -871,6 +940,7 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -912,6 +982,7 @@ CMakeFiles/i2c_mpu9250.dir/main.cpp.obj
  /home/aniket/pico/pico-sdk/src/common/pico_time/include/pico/time.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
@@ -949,6 +1020,7 @@ CMakeFiles/i2c_mpu9250.dir/src/i2c_mpu9250.cpp.obj
  /home/aniket/pico/pico-sdk/src/common/pico_time/include/pico/time.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h

@@ -105,80 +105,80 @@ CMakeFiles/i2c_mpu9250.dir/main.cpp.s: cmake_force
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
@@ -188,171 +188,171 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_div
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_time/time.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_time/time.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/time.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/aniket/pico/pico-sdk/src/common/pico_util/queue.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_util/queue.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/aniket/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
@@ -362,67 +362,67 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_irq
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
@@ -432,15 +432,15 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bit_ops
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
@@ -455,28 +455,28 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
@@ -496,28 +496,28 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/f
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
@@ -527,15 +527,15 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_float/f
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
@@ -563,67 +563,67 @@ CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standar
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/i2c_mpu9250.dir/flags.make
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
 CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
-	/bin/arm-none-eabi-gcc-8.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/i2c_mpu9250.dir/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 # Object files for target i2c_mpu9250
 i2c_mpu9250_OBJECTS = \
@@ -734,11 +734,11 @@ i2c_mpu9250.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksum
 i2c_mpu9250.elf: CMakeFiles/i2c_mpu9250.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable i2c_mpu9250.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/i2c_mpu9250.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex i2c_mpu9250.elf i2c_mpu9250.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary i2c_mpu9250.elf i2c_mpu9250.bin
-	/usr/bin/arm-none-eabi-objdump -h i2c_mpu9250.elf >i2c_mpu9250.dis
-	/usr/bin/arm-none-eabi-objdump -d i2c_mpu9250.elf >>i2c_mpu9250.dis
-	elf2uf2/elf2uf2 i2c_mpu9250.elf i2c_mpu9250.uf2
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/i2c_mpu9250.elf i2c_mpu9250.hex
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/i2c_mpu9250.elf i2c_mpu9250.bin
+	/usr/bin/arm-none-eabi-objdump -h /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/i2c_mpu9250.elf >i2c_mpu9250.dis
+	/usr/bin/arm-none-eabi-objdump -d /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/i2c_mpu9250.elf >>i2c_mpu9250.dis
+	elf2uf2/elf2uf2 /home/aniket/pico/my_pico_projects/i2c_mpu9250/build/i2c_mpu9250.elf i2c_mpu9250.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/i2c_mpu9250.dir/build: i2c_mpu9250.elf

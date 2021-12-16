@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../inc/BMP280.h
+stdbool.h
+../inc/stdbool.h
+stdint.h
+../inc/stdint.h
+pico/stdlib.h
+../inc/pico/stdlib.h
+hardware/i2c.h
+../inc/hardware/i2c.h
+
 /home/aniket/pico/my_pico_projects/i2c_bmp280/inc/BMP280.h
 stdbool.h
 /home/aniket/pico/my_pico_projects/i2c_bmp280/inc/stdbool.h
@@ -15,6 +25,26 @@ pico/stdlib.h
 /home/aniket/pico/my_pico_projects/i2c_bmp280/inc/pico/stdlib.h
 hardware/i2c.h
 /home/aniket/pico/my_pico_projects/i2c_bmp280/inc/hardware/i2c.h
+
+/home/aniket/pico/my_pico_projects/i2c_bmp280/main.cpp
+stdio.h
+-
+pico/stdlib.h
+/home/aniket/pico/my_pico_projects/i2c_bmp280/pico/stdlib.h
+hardware/uart.h
+/home/aniket/pico/my_pico_projects/i2c_bmp280/hardware/uart.h
+hardware/gpio.h
+/home/aniket/pico/my_pico_projects/i2c_bmp280/hardware/gpio.h
+hardware/divider.h
+/home/aniket/pico/my_pico_projects/i2c_bmp280/hardware/divider.h
+hardware/spi.h
+/home/aniket/pico/my_pico_projects/i2c_bmp280/hardware/spi.h
+hardware/i2c.h
+/home/aniket/pico/my_pico_projects/i2c_bmp280/hardware/i2c.h
+BMP280.h
+/home/aniket/pico/my_pico_projects/i2c_bmp280/BMP280.h
+../inc/BMP280.h
+/home/aniket/pico/my_pico_projects/inc/BMP280.h
 
 /home/aniket/pico/my_pico_projects/i2c_bmp280/src/BMP280.cpp
 stdio.h
@@ -96,6 +126,8 @@ hardware/platform_defs.h
 
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 
+/home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
@@ -130,6 +162,12 @@ hardware/regs/sio.h
 hardware/structs/interp.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/structs/interp.h
 
+/home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+hardware/address_mapped.h
+/home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/spi.h
+/home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/spi.h
+
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 hardware/address_mapped.h
 /home/aniket/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
@@ -152,6 +190,12 @@ pico.h
 hardware/regs/addressmap.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/hardware/regs/addressmap.h
 
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h
+pico.h
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/include/hardware/pico.h
+hardware/structs/sio.h
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_divider/include/hardware/hardware/structs/sio.h
+
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
 pico.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/pico.h
@@ -167,6 +211,14 @@ pico/time.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/pico/time.h
 hardware/structs/i2c.h
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/hardware/structs/i2c.h
+
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+pico.h
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/pico.h
+pico/time.h
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/pico/time.h
+hardware/structs/spi.h
+/home/aniket/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/hardware/structs/spi.h
 
 /home/aniket/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 pico.h
@@ -187,6 +239,10 @@ pico/types.h
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/pico/types.h
 hardware/platform_defs.h
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/hardware/platform_defs.h
+
+/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+cstdlib
+-
 
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 pico.h

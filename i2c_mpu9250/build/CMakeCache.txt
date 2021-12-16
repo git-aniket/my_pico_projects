@@ -15,10 +15,10 @@
 ########################
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=/bin/arm-none-eabi-addr2line
+CMAKE_ADDR2LINE:FILEPATH=/usr/bin/arm-none-eabi-addr2line
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/bin/arm-none-eabi-ar
+CMAKE_AR:FILEPATH=/usr/bin/arm-none-eabi-ar
 
 //ASM compiler
 CMAKE_ASM_COMPILER:FILEPATH=/usr/bin/arm-none-eabi-gcc
@@ -46,7 +46,8 @@ CMAKE_ASM_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the ASM compiler during RELWITHDEBINFO builds.
 CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//No help, variable specified on the command line.
+//Choose the type of build, options are: None Debug Release RelWithDebInfo
+// MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
@@ -78,16 +79,16 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=/bin/arm-none-eabi-gcc-8.3.1
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/arm-none-eabi-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/bin/arm-none-eabi-gcc-ar
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/arm-none-eabi-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/bin/arm-none-eabi-gcc-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/arm-none-eabi-gcc-ranlib
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=-mcpu=cortex-m0plus -mthumb
@@ -122,14 +123,11 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
-
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/bin/arm-none-eabi-ld
+CMAKE_LINKER:FILEPATH=/usr/bin/arm-none-eabi-ld
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
@@ -155,7 +153,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/bin/arm-none-eabi-nm
+CMAKE_NM:FILEPATH=/usr/bin/arm-none-eabi-nm
 
 CMAKE_OBJCOPY:FILEPATH=/usr/bin/arm-none-eabi-objcopy
 
@@ -171,10 +169,10 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=i2c_mpu9250
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/bin/arm-none-eabi-ranlib
+CMAKE_RANLIB:FILEPATH=/usr/bin/arm-none-eabi-ranlib
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=/bin/arm-none-eabi-readelf
+CMAKE_READELF:FILEPATH=/usr/bin/arm-none-eabi-readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -224,7 +222,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/bin/arm-none-eabi-strip
+CMAKE_STRIP:FILEPATH=/usr/bin/arm-none-eabi-strip
 
 //The CMake toolchain file
 CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/aniket/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake
@@ -236,10 +234,10 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/aniket/pico/pico-sdk/cmake/preload/toolchain
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dot tool for use with Doxygen
-DOXYGEN_DOT_EXECUTABLE:FILEPATH=DOXYGEN_DOT_EXECUTABLE-NOTFOUND
+DOXYGEN_DOT_EXECUTABLE:FILEPATH=/usr/bin/dot
 
 //Doxygen documentation generation tool (http://www.doxygen.org)
-DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
+DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
 
 //PICO target board (e.g. pico)
 PICO_BOARD:STRING=pico
@@ -422,7 +420,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=70
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=71
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -476,7 +474,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=/home/aniket/pico/pico-sdk/src/rp2_common/boot_sta
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=/home/aniket/pico/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=/home/aniket/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=/usr/bin/arm-none-eabi-gcc
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /home/aniket/pico/pico-sdk/src/rp2_common/cmsis /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs /home/aniket/pico/pico-sdk/src/rp2_common/cmsis /home/aniket/pico/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= /home/aniket/pico/pico-sdk/src/common /home/aniket/pico/pico-sdk/src/rp2_common /home/aniket/pico/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

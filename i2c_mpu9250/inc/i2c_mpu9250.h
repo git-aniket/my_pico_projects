@@ -1,3 +1,6 @@
+#ifndef i2c_mpu9250_h
+#define i2c_mpu9250_h
+
 #include "../inc/MPU9250_RegisterMap.h"
 #include "pico/stdlib.h"
 #include "stdbool.h"
@@ -5,37 +8,35 @@
 
 typedef enum accel_tag
 {
-    ACCEL_X =1,
-    ACCEL_Y =2,
-    ACCEL_Z =3,
-}ACCELERATION_AXIS;
+    ACCEL_X = 1,
+    ACCEL_Y = 2,
+    ACCEL_Z = 3,
+} ACCELERATION_AXIS;
 
 typedef enum gyro_tag
 {
-    GYRO_X =1,
-    GYRO_Y =2,
-    GYRO_Z =3,
-}GYROSCOPE_AXIS;
-
+    GYRO_X = 1,
+    GYRO_Y = 2,
+    GYRO_Z = 3,
+} GYROSCOPE_AXIS;
 
 class MPU9250
 {
-    public:
+public:
     //variables
-    float ax,ay, az;
-    float gx,gy, gz;
+    float ax, ay, az;
+    float gx, gy, gz;
     float mag;
     float temp;
 
-
     MPU9250_GYRO_FULL_SCALE current_gyro_scale;
     MPU9250_ACCEL_FULL_SCALE current_acc_scale;
-    
+
     //functions
-    MPU9250(i2c_inst_t* port, uint sda, uint scl,MPU9250_ACCEL_FULL_SCALE, MPU9250_GYRO_FULL_SCALE  );
+    MPU9250(i2c_inst_t *port, uint sda, uint scl, MPU9250_ACCEL_FULL_SCALE, MPU9250_GYRO_FULL_SCALE);
     ~MPU9250()
     {
-	    i2c_deinit(this->PORT);
+        i2c_deinit(this->PORT);
     }
 
     bool MPU_config(MPU9250_ACCEL_FULL_SCALE, MPU9250_GYRO_FULL_SCALE);
@@ -47,9 +48,9 @@ class MPU9250
     float get_gyro(GYROSCOPE_AXIS);
     float get_magnetometer();
 
-    private:
+private:
     //variables
-    i2c_inst_t* PORT;
+    i2c_inst_t *PORT;
     uint SDA;
     uint SCL;
     uint8_t raw_data_buffer[MPU_RAW_REG_COUNT];
@@ -57,3 +58,5 @@ class MPU9250
     //functions
     bool read_register(uint8_t src, uint8_t *dst);
 };
+
+#endif

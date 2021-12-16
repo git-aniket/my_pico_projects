@@ -21,10 +21,10 @@ ACC_DLP_CONFIG_41	inc/MPU9250_RegisterMap.h	/^    ACC_DLP_CONFIG_41=3,$/;"	e	enu
 ACC_DLP_CONFIG_460	inc/MPU9250_RegisterMap.h	/^    ACC_DLP_CONFIG_460=0,$/;"	e	enum:DLP_CFG_ACC
 ACC_DLP_CONFIG_5	inc/MPU9250_RegisterMap.h	/^    ACC_DLP_CONFIG_5=6,$/;"	e	enum:DLP_CFG_ACC
 ACC_DLP_CONFIG_92	inc/MPU9250_RegisterMap.h	/^    ACC_DLP_CONFIG_92=2,$/;"	e	enum:DLP_CFG_ACC
-ACC_FS_EIGHT_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_EIGHT_G=2,$/;"	e	enum:__anon2
-ACC_FS_FOUR_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_FOUR_G=1,$/;"	e	enum:__anon2
-ACC_FS_SIXTEEN_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_SIXTEEN_G=3,$/;"	e	enum:__anon2
-ACC_FS_TWO_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_TWO_G=0,$/;"	e	enum:__anon2
+ACC_FS_EIGHT_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_EIGHT_G=0b10,$/;"	e	enum:__anon2
+ACC_FS_FOUR_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_FOUR_G=0b01,$/;"	e	enum:__anon2
+ACC_FS_SIXTEEN_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_SIXTEEN_G=0b11,$/;"	e	enum:__anon2
+ACC_FS_TWO_G	inc/MPU9250_RegisterMap.h	/^    ACC_FS_TWO_G=0b0,$/;"	e	enum:__anon2
 AK8963_ASAX	inc/MPU9250_RegisterMap.h	/^	AK8963_ASAX = 0x10,$/;"	e	enum:ak8963_register
 AK8963_ASAY	inc/MPU9250_RegisterMap.h	/^	AK8963_ASAY = 0x11,$/;"	e	enum:ak8963_register
 AK8963_ASAZ	inc/MPU9250_RegisterMap.h	/^	AK8963_ASAZ = 0x12,$/;"	e	enum:ak8963_register
@@ -1000,10 +1000,10 @@ GYRO_DLP_CFG_3600_8	inc/MPU9250_RegisterMap.h	/^    GYRO_DLP_CFG_3600_8=7,$/;"	e
 GYRO_DLP_CFG_41_1	inc/MPU9250_RegisterMap.h	/^    GYRO_DLP_CFG_41_1=3,$/;"	e	enum:DLP_CFG_GYRO
 GYRO_DLP_CFG_5_1	inc/MPU9250_RegisterMap.h	/^    GYRO_DLP_CFG_5_1=6,$/;"	e	enum:DLP_CFG_GYRO
 GYRO_DLP_CFG_92_1	inc/MPU9250_RegisterMap.h	/^    GYRO_DLP_CFG_92_1=2,$/;"	e	enum:DLP_CFG_GYRO
-GYRO_FS_FIVE_HUNDRED_DPS	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_FIVE_HUNDRED_DPS=1,$/;"	e	enum:__anon1
-GYRO_FS_ONE_THOUSAND_DPS_1000	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_ONE_THOUSAND_DPS_1000=2,$/;"	e	enum:__anon1
-GYRO_FS_TWO_FIFTY_DPS	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_TWO_FIFTY_DPS=0,$/;"	e	enum:__anon1
-GYRO_FS_TWO_THOUSAND_DPS	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_TWO_THOUSAND_DPS=3,$/;"	e	enum:__anon1
+GYRO_FS_FIVE_HUNDRED_DPS	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_FIVE_HUNDRED_DPS=0b01,$/;"	e	enum:__anon1
+GYRO_FS_ONE_THOUSAND_DPS	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_ONE_THOUSAND_DPS=0b10,$/;"	e	enum:__anon1
+GYRO_FS_TWO_FIFTY_DPS	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_TWO_FIFTY_DPS=0b0,$/;"	e	enum:__anon1
+GYRO_FS_TWO_THOUSAND_DPS	inc/MPU9250_RegisterMap.h	/^    GYRO_FS_TWO_THOUSAND_DPS=0b11,$/;"	e	enum:__anon1
 GYRO_X	inc/i2c_mpu9250.h	/^    GYRO_X =1,$/;"	e	enum:gyro_tag
 GYRO_Y	inc/i2c_mpu9250.h	/^    GYRO_Y =2,$/;"	e	enum:gyro_tag
 GYRO_Z	inc/i2c_mpu9250.h	/^    GYRO_Z =3,$/;"	e	enum:gyro_tag
@@ -1506,7 +1506,6 @@ STRINGIFY_HELPER	build/elf2uf2/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c	
 STRINGIFY_HELPER	build/elf2uf2/CMakeFiles/3.18.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	319;"	d	file:
 _MPU9250_REGISTER_MAP_H_	inc/MPU9250_RegisterMap.h	26;"	d
 _PICO_VERSION_H	build/generated/pico_base/pico/version.h	12;"	d
-acc_full_scale	inc/i2c_mpu9250.h	/^    MPU9250_ACCEL_FULL_SCALE acc_full_scale;$/;"	m	class:MPU9250
 accel_config_2_bits	inc/MPU9250_RegisterMap.h	/^enum accel_config_2_bits {$/;"	g
 accel_config_bit	inc/MPU9250_RegisterMap.h	/^enum accel_config_bit {$/;"	g
 accel_tag	inc/i2c_mpu9250.h	/^typedef enum accel_tag$/;"	g
@@ -1516,6 +1515,8 @@ ay	inc/i2c_mpu9250.h	/^    float ax,ay, az;$/;"	m	class:MPU9250
 az	inc/i2c_mpu9250.h	/^    float ax,ay, az;$/;"	m	class:MPU9250
 const	build/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
 const	build/elf2uf2/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+current_acc_scale	inc/i2c_mpu9250.h	/^    MPU9250_ACCEL_FULL_SCALE current_acc_scale;$/;"	m	class:MPU9250
+current_gyro_scale	inc/i2c_mpu9250.h	/^    MPU9250_GYRO_FULL_SCALE current_gyro_scale;$/;"	m	class:MPU9250
 get_acceleration	src/i2c_mpu9250.cpp	/^float MPU9250::get_acceleration(ACCELERATION_AXIS accel)$/;"	f	class:MPU9250
 get_all_readings	src/i2c_mpu9250.cpp	/^bool MPU9250::get_all_readings()$/;"	f	class:MPU9250
 get_gyro	src/i2c_mpu9250.cpp	/^float MPU9250::get_gyro(GYROSCOPE_AXIS gyro)$/;"	f	class:MPU9250
@@ -1524,7 +1525,6 @@ get_temperature	src/i2c_mpu9250.cpp	/^float MPU9250::get_temperature()$/;"	f	cla
 gx	inc/i2c_mpu9250.h	/^    float gx,gy, gz;$/;"	m	class:MPU9250
 gy	inc/i2c_mpu9250.h	/^    float gx,gy, gz;$/;"	m	class:MPU9250
 gyro_config_bits	inc/MPU9250_RegisterMap.h	/^enum gyro_config_bits {$/;"	g
-gyro_full_scale	inc/i2c_mpu9250.h	/^    MPU9250_GYRO_FULL_SCALE gyro_full_scale;$/;"	m	class:MPU9250
 gyro_tag	inc/i2c_mpu9250.h	/^typedef enum gyro_tag$/;"	g
 gz	inc/i2c_mpu9250.h	/^    float gx,gy, gz;$/;"	m	class:MPU9250
 info_arch	build/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v

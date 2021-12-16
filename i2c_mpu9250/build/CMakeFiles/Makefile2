@@ -163,6 +163,7 @@ pico-sdk/src/clean: pico-sdk/src/rp2040/clean
 pico-sdk/src/common/all: pico-sdk/src/common/boot_picoboot/all
 pico-sdk/src/common/all: pico-sdk/src/common/boot_uf2/all
 pico-sdk/src/common/all: pico-sdk/src/common/pico_base/all
+pico-sdk/src/common/all: pico-sdk/src/common/pico_usb_reset_interface/all
 pico-sdk/src/common/all: pico-sdk/src/common/pico_bit_ops/all
 pico-sdk/src/common/all: pico-sdk/src/common/pico_binary_info/all
 pico-sdk/src/common/all: pico-sdk/src/common/pico_divider/all
@@ -177,6 +178,7 @@ pico-sdk/src/common/all: pico-sdk/src/common/pico_stdlib/all
 pico-sdk/src/common/preinstall: pico-sdk/src/common/boot_picoboot/preinstall
 pico-sdk/src/common/preinstall: pico-sdk/src/common/boot_uf2/preinstall
 pico-sdk/src/common/preinstall: pico-sdk/src/common/pico_base/preinstall
+pico-sdk/src/common/preinstall: pico-sdk/src/common/pico_usb_reset_interface/preinstall
 pico-sdk/src/common/preinstall: pico-sdk/src/common/pico_bit_ops/preinstall
 pico-sdk/src/common/preinstall: pico-sdk/src/common/pico_binary_info/preinstall
 pico-sdk/src/common/preinstall: pico-sdk/src/common/pico_divider/preinstall
@@ -191,6 +193,7 @@ pico-sdk/src/common/preinstall: pico-sdk/src/common/pico_stdlib/preinstall
 pico-sdk/src/common/clean: pico-sdk/src/common/boot_picoboot/clean
 pico-sdk/src/common/clean: pico-sdk/src/common/boot_uf2/clean
 pico-sdk/src/common/clean: pico-sdk/src/common/pico_base/clean
+pico-sdk/src/common/clean: pico-sdk/src/common/pico_usb_reset_interface/clean
 pico-sdk/src/common/clean: pico-sdk/src/common/pico_bit_ops/clean
 pico-sdk/src/common/clean: pico-sdk/src/common/pico_binary_info/clean
 pico-sdk/src/common/clean: pico-sdk/src/common/pico_divider/clean
@@ -362,6 +365,24 @@ pico-sdk/src/common/pico_time/preinstall:
 pico-sdk/src/common/pico_time/clean:
 
 .PHONY : pico-sdk/src/common/pico_time/clean
+
+#=============================================================================
+# Directory level rules for directory pico-sdk/src/common/pico_usb_reset_interface
+
+# Recursive "all" directory target.
+pico-sdk/src/common/pico_usb_reset_interface/all:
+
+.PHONY : pico-sdk/src/common/pico_usb_reset_interface/all
+
+# Recursive "preinstall" directory target.
+pico-sdk/src/common/pico_usb_reset_interface/preinstall:
+
+.PHONY : pico-sdk/src/common/pico_usb_reset_interface/preinstall
+
+# Recursive "clean" directory target.
+pico-sdk/src/common/pico_usb_reset_interface/clean:
+
+.PHONY : pico-sdk/src/common/pico_usb_reset_interface/clean
 
 #=============================================================================
 # Directory level rules for directory pico-sdk/src/common/pico_util
