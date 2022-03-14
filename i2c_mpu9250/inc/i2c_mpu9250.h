@@ -43,9 +43,11 @@ public:
     bool get_raw_data();
     bool get_all_readings();
 
-    float get_acceleration(ACCELERATION_AXIS);
-    float get_temperature();
-    float get_gyro(GYROSCOPE_AXIS);
+    float get_accel_raw(ACCELERATION_AXIS);
+    float get_accel_g(ACCELERATION_AXIS);
+    float get_temp();
+    float get_gyro_raw(GYROSCOPE_AXIS);
+    float get_gyro_dps(GYROSCOPE_AXIS);
     float get_magnetometer();
 
 private:

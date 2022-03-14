@@ -180,20 +180,35 @@ enum DLP_CFG_ACC{
     ACC_DLP_CONFIG_5=6,
 };
 
-typedef enum{
-    GYRO_FS_TWO_FIFTY_DPS=0b0,
-    GYRO_FS_FIVE_HUNDRED_DPS=0b01,
-    GYRO_FS_ONE_THOUSAND_DPS=0b10,
-    GYRO_FS_TWO_THOUSAND_DPS=0b11,
-} MPU9250_GYRO_FULL_SCALE;
+ 
 
+//Accelerometer full scale range 
 typedef enum{
-    ACC_FS_TWO_G=0b0,
-    ACC_FS_FOUR_G=0b01,
-    ACC_FS_EIGHT_G=0b10,
-    ACC_FS_SIXTEEN_G=0b11,
+    ACC_FS_2G=0b0,
+    ACC_FS_4G=0b01,
+    ACC_FS_8G=0b10,
+    ACC_FS_16G=0b11,
 } MPU9250_ACCEL_FULL_SCALE;
 
+//sensitivity selectors
+#define ACC_SENSITIVITY_16384 16384
+#define ACC_SENSITIVITY_8192 8192
+#define ACC_SENSITIVITY_4096 4096
+#define ACC_SENSITIVITY_2048 2048
+
+//Gyroscope full scale range 
+typedef enum{
+    GYRO_FS_250DPS=0b0,
+    GYRO_FS_500DPS=0b01,
+    GYRO_FS_1000DPS=0b10,
+    GYRO_FS_2000DPS=0b11,
+} MPU9250_GYRO_FULL_SCALE;
+
+//sensitivity selectors
+#define GYRO_SENSITIVITY_131 131
+#define GYRO_SENSITIVITY_65_5 65.5
+#define GYRO_SENSITIVITY_32_8 32.8 
+#define GYRO_SENSITIVITY_16_4 16.4
 
 enum accel_config_2_bits {
 	ACCEL_CONFIG_2_A_DLPFCFG = 0,
