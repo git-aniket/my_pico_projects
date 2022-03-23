@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aniket/pico/pico-sdk/tools/elf2uf2/main.cpp" "/home/aniket/pico/my_pico_projects/i2c_mpu9250/build/elf2uf2/CMakeFiles/elf2uf2.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

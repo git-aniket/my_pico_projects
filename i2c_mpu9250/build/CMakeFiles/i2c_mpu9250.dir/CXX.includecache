@@ -18,6 +18,20 @@ stdbool.h
 hardware/i2c.h
 ../inc/hardware/i2c.h
 
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/main.cpp
+stdio.h
+-
+pico/stdio/driver.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/pico/stdio/driver.h
+pico/stdlib.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/pico/stdlib.h
+hardware/i2c.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/hardware/i2c.h
+MPU9250_RegisterMap.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/MPU9250_RegisterMap.h
+i2c_mpu9250.h
+/home/aniket/pico/my_pico_projects/i2c_mpu9250/i2c_mpu9250.h
+
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/src/i2c_mpu9250.cpp
 pico/stdlib.h
 /home/aniket/pico/my_pico_projects/i2c_mpu9250/src/pico/stdlib.h
@@ -199,6 +213,10 @@ sys/cdefs.h
 -
 pico/types.h
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/pico/types.h
+
+/home/aniket/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+cstdlib
+-
 
 /home/aniket/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 pico.h
