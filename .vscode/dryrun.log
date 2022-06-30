@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/aniket/pico/my_pico_projects'
+make: Leaving directory '/home/aniket/pico/my_pico_projects'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
